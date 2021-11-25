@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Tabelas</title>
+        <style type="text/css">
+            table, td, th{
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Tabelas em HTML</h1>
+        <table>
+            <caption>Lista de alunos de Web I</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Sobrenome</th>
+                    <th scope="col">CPF</th>
+                    <th scope="col">RG</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Rodapé da table</td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <th scope="row">Bianca</th>
+                    <td>Ferreira</td>
+                    <td>123456788</td>
+                    <td>987654432</td>
+                </tr>
+                <tr>
+                    <th scope="row" rowspan="2">Silvaneide</th>
+                    <td rowspan="2">Santos</td>
+                    <td>123456788</td>
+                    <td>987654432</td>
+                </tr>
+                <tr>
+                    <td>456789132</td>
+                    <td>654987321</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
