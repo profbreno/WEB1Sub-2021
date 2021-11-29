@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Indico Ir! Viagens e Gastro</title>
+    </head>
+    <body>
+        <h1>Indico Ir</h1>
+        <form action="index.html" method="post">
+            Nome: <input type="text" name="nome" id="nome" value="" placeholder="Digite seu nome" autofocus /><br />
+            Idade: <input type="number" name="idade" id="idade" value="" min="0" max="130" /><br />
+            Data de nascimento:
+            <input type="date" name="nascimento" id="nascimento" value="" /><br />
+            Data e hora do cadastro:
+            <input type="time" name="cadastro" id="cadastro" value="" /><br />
+            Sexo:<br />
+            <input type="radio" name="sexo" id="feminino" value="F" /> Feminino<br />
+            <input type="radio" name="sexo" id="masculino" value="M" /> Masculino<br />
+            Email: <input type="email" name="email" id="email" value="" disabled /><br />
+            Senha: <input type="password" name="senha" id="senha" value="" /><br />
+            <input type="checkbox" name="concordo" checked id="concordo" value="sim" />
+            Concordar com políticas do site<br />
+            <input type="submit" name="enviar" value="Cadastrar" /> 
+            <input type="reset" name="limpar" value="Limpar formulário" />
+        </form>    
+    </body>
+</html>
