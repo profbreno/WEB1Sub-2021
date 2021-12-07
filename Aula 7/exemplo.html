@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf8" />
+        <title>Introdução ao CSS</title>
+        <style type="text/css">
+            body * {
+                border: 1px solid black;
+            }
+            /* Estilo do corpo da página */
+            body {
+                /* cor do plano de fundo */
+                background-color:#DDD;
+            }
+            h1 {
+                color: red;
+            }
+            h1#exemplo2 {
+                text-decoration: underline;
+            }
+            h1.exemplos {
+                padding: 20px;
+                background-color: white;
+            }
+            img[alt] {
+                width: 500px;
+                border-radius: 10px;
+            }
+            img[title="Rio Grande do Norte"]{
+                border: 0px;
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Essa é minha primeira página com CSS - Exemplo 1</h1>
+        <h1 class="exemplos" id="exemplo2">Essa é minha primeira página com CSS - Exemplo 2</h1>
+        <h1 class="exemplos">Essa é minha primeira página com CSS - Exemplo 3</h1>
+        <p class="exemplos">
+            Olá tudo bem. Estou testando alguns exemplos de CSS
+        </p>
+        <p>
+            <img src="../Aula 4/img/foto.jpeg" alt="Foto do professor no RN" title="Rio Grande do Norte" />
+        </p>
+    </body>
+</html>
