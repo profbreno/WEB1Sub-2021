@@ -3,9 +3,45 @@
     <head>
         <meta charset="utf-8" />
         <title>Tabelas</title>
+        <style type="text/css">
+            table {
+                width: 100%;
+                border-collapse: collapse; 
+            }
+            td {
+                background-color: #DDD;
+                margin: 10px;
+                border-radius: 5px;
+            }
+            td:hover {
+                background-color: darkgrey;
+                box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+                border-color: rgba(223,225,229,0);
+            }
+            p::first-letter{
+                font-size: 50px;
+            }
+        </style>
     </head>
     <body>
-        <table border="1">
+        <p>Era uma vez, a branca de neve...</p>
+        <table>
+            <legend>Tabela 1</legend>
+            <tr>
+                <td colspan="2">1</td>
+                <td rowspan="2">3</td>
+            </tr>
+            <tr>
+                <td rowspan="2">4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td colspan="2">8</td>
+            </tr>
+        </table>
+        <br /> <br />
+        <table>
+            <legend>Tabela 2</legend>
             <tr>
                 <td colspan="2">1</td>
                 <td rowspan="2">3</td>
