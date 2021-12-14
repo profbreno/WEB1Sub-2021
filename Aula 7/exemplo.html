@@ -5,7 +5,7 @@
         <title>Introdução ao CSS</title>
         <style type="text/css">
             body * {
-                border: 1px solid black;
+                font-family: Arial, Helvetica, sans-serif;
             }
             /* Estilo do corpo da página */
             body {
@@ -30,6 +30,13 @@
                 border: 0px;
                 margin: 10px;
             }
+            h3 > strong {
+                color: blue;
+            }
+
+            h2 + p {
+                color: green;
+            }
         </style>
     </head>
     <body>
@@ -39,6 +46,11 @@
         <p class="exemplos">
             Olá tudo bem. Estou testando alguns exemplos de CSS
         </p>
+        <h3>
+            Olá tudo bem. Estou testando alguns <strong>exemplos</strong> de CSS
+        </h3>
+        <h2>Testando os irmãos adjascentes.</h2>
+        <p>Eu sou um irmão adjascente</p>
         <p>
             <img src="../Aula 4/img/foto.jpeg" alt="Foto do professor no RN" title="Rio Grande do Norte" />
         </p>
