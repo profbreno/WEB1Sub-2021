@@ -1,0 +1,15 @@
+html {
+  font: 75% Verdana, sans-serif;
+  background-color: blue;
+  color: white;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: red;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  background-color: inherit;
+}

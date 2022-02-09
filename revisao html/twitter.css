@@ -16,7 +16,7 @@ section#twitter {
   border-radius: 10px;
 }
 
-input {
+form#login input {
   border: 1px solid #ccc;
   padding: 10px;
   margin: 10px;
@@ -24,14 +24,14 @@ input {
   border-radius: 5px;
 }
 
-input[type="submit"] {
+#login input[type="submit"] {
   border-color: rgba(0, 0, 0, 0);
   background-color: rgb(15, 20, 25);
   border-radius: 9999px;
   cursor: pointer;
   color: rgb(255, 255, 255);
 }
-input[type="submit"]:hover {
+#login input[type="submit"]:hover {
   background-color: rgb(43, 43, 43);
   color: rgb(255, 255, 255);
 }

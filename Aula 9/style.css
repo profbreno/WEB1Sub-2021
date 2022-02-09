@@ -1,0 +1,35 @@
+body {
+  /* Tamanho da fonte. */
+  font-size: 14px;
+  /* Fonte. */
+  font-family: Arial, Helvetica, sans-serif;
+  /* Font style. */
+  font-style: italic;
+  /* Font variant. */
+  font-variant: small-caps;
+  /* Font weight. */
+  font-weight: bold;
+}
+
+p#paragrafo1 {
+  /* Nome da cor. */
+  color: brown;
+}
+p#paragrafo2 {
+  /* Notação hexadecimal. */
+  color: #6d1414; /* #FF   00   00 */
+}
+p#paragrafo3 {
+  /* Notação funcional. */
+  color: rgb(223, 52, 103); /* rgb(R, G, B) */
+}
+p#paragrafo4 {
+  /* Notação funcional estendida (opacidade) */
+  color: rgba(223, 52, 103, 0.5); /* rgb(R, G, B, opacidade) */
+}
+
+p#paragrafo5 {
+  /* A propriedade minimizada */
+  font: normal normal normal 20px "Courier New", serif;
+  box-shadow: 10px 10px 5px #888888;
+}
