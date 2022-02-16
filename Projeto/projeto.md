@@ -20,7 +20,7 @@ Assim, será exigido que a apresentação possua um tempo máximo de 3 minutos e
 * Alguma seleção de telas de sistemas existentes que façam algo semelhante ao que será proposto, ou seja, não precisamos reinventar a roda sempre;
 * Por fim, deve-se apresentar alguns esboços de tela do protótipo final do projeto.
 
-Para facilitar a listagem dos temas, todos os interessados devem enviar suas propostas por [email](mail:breno.leonardo@ifba.edu.br) seguindo o seguinte modelo:
+Para facilitar a listagem dos temas, todos os interessados devem enviar suas propostas por [email](http://mail:breno.leonardo@ifba.edu.br) seguindo o seguinte modelo:
 
 ```
 Título/Tema do Projeto
