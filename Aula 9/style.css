@@ -1,4 +1,5 @@
 body {
+  background-color: #bbb;
   /* Tamanho da fonte. */
   font-size: 14px;
   /* Fonte. */
@@ -9,6 +10,16 @@ body {
   font-variant: small-caps;
   /* Font weight. */
   font-weight: bold;
+  /* Line height. */
+  line-height: normal;
+  /* Text align. */
+  text-align: center;
+  /* Text decoration. */
+  text-decoration: underline;
+  /* Text transform. */
+  text-transform: uppercase;
+  /* white-space. */
+  white-space: nowrap;
 }
 
 p#paragrafo1 {
