@@ -1,0 +1,37 @@
+.grid {
+  display: grid;
+}
+.logo {
+  grid-area: logo;
+}
+.nav {
+  grid-area: nav;
+}
+.content {
+  grid-area: content;
+}
+.sidenav {
+  grid-area: sidenav;
+}
+.advert {
+  grid-area: advert;
+}
+.footer {
+  grid-area: footer;
+}
+
+.container {
+  grid-template:
+    "logo nav nav" 50px
+    "sidenav content advert" 200px
+    "sidenav footer footer" 70px
+    / 100px 1fr 200px;
+}
+
+/* Grid Item */
+.item {
+  margin: 5px;
+  background: tomato;
+  text-align: center;
+  font-size: 1.5em;
+}
