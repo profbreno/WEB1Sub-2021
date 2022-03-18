@@ -1,0 +1,60 @@
+<!-- Html-->
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="utf-8" />
+    <title> projeto1 </title>
+    <style type="text/css">
+        body {
+            background: #755339;
+        }
+
+        div {
+            color: #FFFFFF;
+        }
+
+        .grid {
+            display: grid;
+        }
+
+        .logo {
+            grid-area: logo;
+        }
+
+        .login {
+            grid-area: login;
+        }
+
+        .carrinho {
+            grid-area: carrinho;
+        }
+
+        .menu {
+            grid-area: menu;
+        }
+
+        .container {
+            grid-template-areas:
+                "logo login carrinho menu";
+        }
+
+        .item {
+            margin: 10px;
+            border: 16px;
+            border-top-style: 50px;
+            padding: 40px;
+            width: .300em;
+            background: tomato;
+            font-size: 1.5em;
+        }
+    </style>
+
+<body>
+    <div class="grid container">
+        <div class="item logo"> logo </div>
+        <div class="item login"> login </div>
+        <div class="item carrinho"> carrinho </div>
+        <div class="item menu"> menu </div>
+    </div>
+</body>
+</html>

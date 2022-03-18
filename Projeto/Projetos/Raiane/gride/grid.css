@@ -1,0 +1,41 @@
+.container {
+  display: grid;
+}
+.navbar-editorial {
+  grid-area: navbar;
+}
+.login {
+  grid-area: login;
+}
+.logo {
+  grid-area: logo;
+}
+.search {
+  grid-area: search;
+}
+.carolsel {
+  grid-area: Carolsel;
+}
+.content {
+  grid-area: content;
+}
+.sidenav {
+  grid-area: sidenav;
+}
+.footer {
+  grid-area: footer;
+}
+.container {
+  grid-template-areas: 
+  "navbar editorial navbar editorial Login"
+  "nav logo search"
+  "Carousel Carousel carolsel"
+  "sidenav content content"
+  "sidenav footer footer";
+}
+.item {
+  margin: 5px;
+  background:tomato;
+  text-align: center;
+  font-size: 1.5em;
+}
