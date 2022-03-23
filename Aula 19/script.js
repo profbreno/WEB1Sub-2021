@@ -26,3 +26,18 @@ let x = findMax(1, 212, 31, 404, 530, 60, 7, 89, 992, 210);
 let y = setElementBackground("botao");
 console.log(x);
 console.log(y);
+
+// Funções anônimas
+function repeat(n, action) {
+  for (let i = 0; i < n; i++) {
+    action(i);
+  }
+}
+
+repeat(20, function (x) {
+  console.log(x);
+});
+
+// Arrow functions
+let sum = (a, b) => a + b;
+console.log(sum(30, 43));
