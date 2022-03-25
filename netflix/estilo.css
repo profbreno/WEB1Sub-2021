@@ -2,6 +2,8 @@ body {
   background: url(img/BR-pt-20220307-popsignuptwoweeks-perspective_alpha_website_large.jpg);
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  font-size: 12px;
+  color: #999;
 }
 
 #all {
@@ -20,17 +22,19 @@ body {
 
 div#content {
   margin: auto;
-  width: 500px;
+  max-width: 400px;
   background-color: rgba(0, 0, 0, 0.8);
-  color: #fff;
   padding: 40px;
   box-shadow: 0 0 10px #000;
   border-radius: 5px;
 }
+div#content h1 {
+  color: white;
+}
+
 div#content input {
-  width: 90%;
-  padding: 15px;
-  margin: 10px;
+  padding: 20px;
+  margin-top: 20px;
   border-radius: 5px;
   border: 0px;
   font-size: 16px;
@@ -38,9 +42,49 @@ div#content input {
 div#content input[type="email"],
 div#content input[type="password"] {
   background-color: #444;
+  width: 85%;
 }
 div#content input[type="submit"] {
+  width: 94%;
   background-color: red;
   color: #fff;
   font-weight: bold;
+}
+
+div#content input[type="checkbox"] {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+#cadastro {
+  font-size: 16px;
+}
+
+#cadastro a {
+  color: white;
+}
+
+#captcha a {
+  color: blue;
+}
+
+footer {
+  margin-top: 60px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+footer#content-footer {
+  width: 80%;
 }
