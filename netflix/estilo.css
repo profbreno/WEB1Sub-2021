@@ -80,11 +80,43 @@ footer {
   margin-top: 60px;
   background-color: rgba(0, 0, 0, 0.8);
   padding: 20px;
-  text-align: center;
+  text-align: left;
   color: white;
-  font-size: 12px;
+  font-size: 14px;
 }
 
-footer#content-footer {
-  width: 80%;
+div#content-footer {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+div#content-footer,
+div#content-footer a {
+  color: #777;
+}
+
+div#content-footer #duvidas {
+  font-size: 16px;
+}
+
+div#content-footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+div#content-footer ul li {
+  display: inline-block;
+  width: 220px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+div#content-footer select {
+  padding: 10px;
+  border-radius: 2px;
+  border: 1px solid #555;
+  font-size: 16px;
+  background-color: black;
+  color: #777;
 }
